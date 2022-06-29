@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Musixx</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous"
+    referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+  <section id="navigation-bar">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">
+        <img id="logo" src="musical-note.png" alt="musixx logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+  </section>
+
+
+  <section id="desc">
+    <div class="desc container-fluid">
+      <img class="showit1" src="musical-note.png" alt="">
+      <h2>Why Musixx??</h2>
+      <br>
+      <h3>Musixx is a door to the ever-fascinating world of music that keeps evolving every single day. Be it work, gym, a party or its me-time, with Musixx you can dive deep into relaxation...</h3>
+    </div>
+  </section>
+
+
+  <section id="musicplayer">
+    <div class="container-fluid">
+      <div class="songList">
+        <center>
+          <h1 class="h2mplayer">Explore the fascinating world of music on Musixx!</h1>
+        </center>
+        <div class="songItemContainer row">
+          <div class="col col-lg-3 col-md-4 col-sm-6">
+            <div class="songItem card musicard">
+              <img alt="1" class="musicmage">
+              <span class="songName">Hymn for the Weekend: Coldplay</span>
+              <span class="songlistplay"><span class="timestamp">04:18
+                  <center>
+                    <button type="button" class="btn btn-light btnh"><i id="0" class="far songItemPlay fa-play-circle"> Play</i>
+                </span></span></button>
+              </center>
+            </div>
+          </div>
+          <div class="col col-lg-3 col-md-4 col-sm-6">
+            <div class="songItem card musicard">
+              <img alt="1" class="musicmage">
+              <span class="songName">La la la- Fifa WC: Shakira</span>
+              <span class="songlistplay"><span class="timestamp">03:17
+                  <center>
+                    <button type="button" class="btn btn-light btnh"><i id="1" class="far songItemPlay fa-play-circle"> Play</i>
+                </span></span></button>
+              </center>
+            </div>
+          </div>
+          <div class="col col-lg-3 col-md-4 col-sm-6">
+            <div class="songItem card musicard">
+              <img alt="1" class="musicmage">
+              <span class="songName">Blinding Lights: The Weeknd</span>
+              <span class="songlistplay"><span class="timestamp">03:23
+                  <center>
+                    <button type="button" class="btn btn-light btnh"><i id="2" class="far songItemPlay fa-play-circle"> Play</i>
+                </span></span></button>
+              </center>
+            </div>
+          </div>
+          <div class="col col-lg-3 col-md-4 col-sm-6">
+            <div class="songItem card musicard">
+              <img alt="1" class="musicmage">
+              <span class="songName">Kings Never Die: Eminem</span>
+              <span class="songlistplay"><span class="timestamp">04:56
+                  <center>
+                    <button type="button" class="btn btn-light btnh"><i id="3" class="far songItemPlay fa-play-circle"> Play</i>
+                </span></span></button>
+              </center>
+            </div>
+          </div>
+          <div class="col col-lg-3 col-md-4 col-sm-6 ">
+            <div class="songItem card musicard">
+              <img alt="1" class="musicmage">
+              <span class="songName">7 Rings: Ariana Grande</span>
+              <span class="songlistplay"><span class="timestamp">02:59
+                  <center>
+                    <button type="button" class="btn btn-light btnh"><i id="4" class="far songItemPlay fa-play-circle"> Play</i>
+                </span></span></button>
+              </center>
+            </div>
+          </div>
+          <div class="col col-lg-3 col-md-4 col-sm-6">
+            <div class="songItem card musicard">
+              <img alt="1" class="musicmage">
+              <span class="songName">In the End: Linkin Park</span>
+              <span class="songlistplay"><span class="timestamp">03:38
+                  <center>
+                    <button type="button" class="btn btn-light btnh"><i id="5" class="far songItemPlay fa-play-circle"> Play</i>
+                </span></span></button>
+              </center>
+            </div>
+          </div>
+          <div class="col col-lg-3 col-md-4 col-sm-6">
+            <div class="songItem card musicard">
+              <img alt="1" class="musicmage">
+              <span class="songName">Taki Taki: DJ Snake</span>
+              <span class="songlistplay"><span class="timestamp">03:32
+                  <center>
+                    <button type="button" class="btn btn-light btnh"><i id="6" class="far songItemPlay fa-play-circle">Play</i>
+                </span></span></button>
+              </center>
+            </div>
+          </div>
+          <div class="col col-lg-3 col-md-4 col-sm-6 ">
+            <div class="songItem card musicard">
+              <img alt="1" class="musicmage">
+              <span class="songName">Not Afraid: Eminem</span>
+              <span class="songlistplay"><span class="timestamp">04:27
+                  <center>
+                    <button type="button" class="btn btn-light btnh"><i id="7" class="far songItemPlay fa-play-circle"> Play</i>
+                </span></span></button>
+              </center>
+            </div>
+          </div>
+          <div class="col col-lg-3 col-md-4 col-sm-6">
+            <div class="songItem card musicard">
+              <img alt="1" class="musicmage">
+              <span class="songName">Crawling: Linkin Park</span>
+              <span class="songlistplay"><span class="timestamp">05:15
+                  <center>
+                    <button type="button" class="btn btn-light btnh"><i id="8" class="far songItemPlay fa-play-circle"> Play</i>
+                </span></span></button>
+              </center>
+            </div>
+          </div>
+          <div class="col col-lg-3 col-md-4 col-sm-6">
+            <div class="songItem card musicard">
+              <img alt="1" class="musicmage">
+              <span class="songName">Despacito: Luis Faunsi</span>
+              <span class="songlistplay"><span class="timestamp">07:41
+                  <center>
+                    <button type="button" class="btn btn-light btnh"><i id="9" class="far songItemPlay fa-play-circle"> Play</i>
+                </span></span></button>
+              </center>
+            </div>
+          </div>
+          <div class="col col-lg-3 col-md-4 col-sm-6 ">
+            <div class="songItem card musicard">
+              <img alt="1" class="musicmage">
+              <span class="songName">Let You Down: NF</span>
+              <span class="songlistplay"><span class="timestamp">05:34
+                  <center>
+                    <button type="button" class="btn btn-light btnh"><i id="10" class="far songItemPlay fa-play-circle"> Play</i>
+                </span></span></button>
+              </center>
+            </div>
+          </div>
+          <div class="col col-lg-3 col-md-4 col-sm-6 ">
+            <div class="songItem card musicard">
+              <img alt="1" class="musicmage">
+              <span class="songName">Memories: Maroon 5</span>
+              <span class="songlistplay"><span class="timestamp">04:57
+                  <center>
+                    <button type="button" class="btn btn-light btnh"><i id="11" class="far songItemPlay fa-play-circle"> Play</i>
+                </span></span></button>
+              </center>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="songBanner"></div>
+    </div>
+  </section>
+
+
+  <section id="barr">
+    <div class="bottom container-fluid">
+      <center>
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+          <!-- fontawesome icons -->
+          <i class="fas fa-3x fa-step-backward" id="previous"></i>
+          <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+          <i class="fas fa-3x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+          <img class="specgif" src="playing.gif" alt="" id="gif">
+          <br>
+          <span id="masterSongName"></span>
+        </div>
+      </center>
+    </div>
+  </section>
+
+
+  <section id="cardbussiness">
+    <center>
+      <div class="row">
+        <div class="col col-lg-4 col-md-6 col-sm-12">
+          <div class="card cardit" style="">
+            <img class="card-img-top" src="musical-note.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Buy Musixx Premium</h5>
+              <p class="card-text">•Ad-free<br>•Unlimited Downloads
+              </p>
+              <a href="#" class="btnx btn lb btn-primary">Buy Premium</a>
+            </div>
+          </div>
+        </div>
+        <div class="col col-lg-4 col-md-6 col-sm-12 ">
+          <div class="card cardit" style="">
+            <img class="card-img-top" src="star.jpeg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Rate Us</h5>
+              <p class="card-text">⭐⭐⭐⭐⭐
+                <br>
+                Your Feedback is valuable.
+              </p>
+              <a href="#" class="btnx btn lb btn-primary">Rate Us</a>
+            </div>
+          </div>
+        </div>
+        <div class="col col-lg-4 col-md-6 col-sm-12">
+          <div class="card cardit" style="">
+            <img class="card-img-top" src="aditya.JPG" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Contact Developer</h5>
+              <p class="card-text">Welcome! Click here to provide feedback</p>
+              <a href="contacts.html" class="btnx btn lb btn-primary">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </center>
+
+  </section>
+
+
+  <section id="links">
+    <center>
+      <h2>Social Media Links</h2>
+
+
+      <a href="https://www.linkedin.com/mwlite/in/aditya-kumar-1a751b228">
+        <button class="bton btn btn-primary" name="button"><i class="fa-brands fa-linkedin fa-2x"></i></button>
+      </a>
+      <a href="https://m.facebook.com/100077680776473/">
+        <button class="bton btn btn-primary" name="button"><i class="fa-brands fa-facebook-square fa-2x"></i></button>
+      </a>
+      <a href="https://www.instagram.com/?hl=en">
+        <button class="bton btn btn-primary" name="button"><i class="fa-brands fa-instagram-square fa-2x"></i></button>
+      </a>
+    </center>
+  </section>
+
+
+  <footer>
+    <center>
+      copyright: Aditya Kumar
+    </center>
+  </footer>
+  </footer>
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

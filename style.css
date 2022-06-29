@@ -1,0 +1,97 @@
+#logo{
+  height: 75px;
+  width: 75px;
+}
+.navbar{
+  padding: 10px 20px;
+}
+.showit1{
+  height: 200px;
+  width: 200px;
+  float: left;
+}
+#desc{
+  padding: 40px 20px;
+}
+#musicplayer{
+  background-color: violet;
+  padding: 40px 40px;
+}
+.musicmage{
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  padding: 10px;
+}
+.card{
+  width: 250px;
+  margin: 20px;
+}
+#cardbussiness{
+background-color: violet;
+padding: 40px 20px;
+}
+.card{
+  box-shadow: 0 20px 20px 0;
+  padding: 20px;
+}
+.musicard{
+  margin: 20px 10px;
+  height: 350px;
+}
+.btn{
+  box-shadow: 0 5px 5px 0;
+}
+.btnh{
+  position: absolute;
+  bottom: 10px;
+  left: 75px;
+  background-color: pink;
+}
+.btnh:hover{
+  background-color: gold;
+}
+.btn:hover{
+  background-color: gold;
+}
+.card-img-top{
+  height: 75px;
+  width: 75px;
+  border-radius: 100%;
+  position: relative;
+  left: 60px;
+}
+.cardit{
+  height: 275px;
+}
+.btnx{
+  position: absolute;
+  bottom: 10px;
+  left: 75px;
+}
+h2{
+  color: purple;
+}
+h3{
+  color: grey;
+}
+#links{
+  padding: 40px 0;
+}
+.bton{
+  margin: 20px;
+}
+.fas{
+  cursor: pointer;
+  margin:5px;
+}
+.far{
+  cursor: pointer;
+  margin:5px;
+}
+#myProgressBar{
+  width: 400px;
+}
+#barr{
+  padding-top: 40px;
+}
